@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/', async (req, res) => {
   try {
-    const googleScriptURL = 'https://script.google.com/macros/s/AKfycbwDFZGyExZrsRw09EhP5WSiqwf-nZ-lr92GNX3BVetpY5qkxQZR604lFFiboHe00js/exec';
+    const googleScriptURL = 'https://script.google.com/macros/s/AKfycbyg5tPQf0kD71ITryOZq0CwLxXjD9hSQjRRYtGz2K83Zf-ijHvf6ctJuEItJAbm7W6FHg/exec';
 
     const response = await fetch(googleScriptURL, {
       method: 'POST',
